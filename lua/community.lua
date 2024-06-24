@@ -7,6 +7,20 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.motion.mini-move" },
   { import = "astrocommunity.indent.indent-rainbowline" },
+  { import = "astrocommunity.completion.copilot-lua" },
+  {
+    {
+      "copilot.lua",
+      opts = {
+        suggestion = {
+          keymap = {
+            accept = "<C-l>",
+          },
+        },
+      },
+    },
+  },
   -- import/override with your plugins folder
 }
