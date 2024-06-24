@@ -10,6 +10,8 @@ return {
       ensure_installed = {
         "lua_ls",
         "pyright",
+        "tsserver",
+        "sqls",
         -- add more arguments for adding more language servers
       },
     },
