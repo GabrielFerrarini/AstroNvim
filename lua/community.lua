@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.completion.copilot-lua" },
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
+  { import = "astrocommunity.scrolling.nvim-scrollbar" },
   {
     {
       "copilot.lua",
@@ -20,6 +21,14 @@ return {
           keymap = {
             accept = "<C-l>",
           },
+        },
+      },
+    },
+    {
+      "petertriho/nvim-scrollbar",
+      opts = {
+        handlers = {
+          gitsigns = true,
         },
       },
     },
