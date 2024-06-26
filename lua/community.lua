@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.completion.copilot-lua" },
   { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   {
     {
       "copilot.lua",
