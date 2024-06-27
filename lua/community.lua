@@ -13,6 +13,7 @@ return {
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
+  { import = "astrocommunity.git.neogit" },
   {
     {
       "copilot.lua",
