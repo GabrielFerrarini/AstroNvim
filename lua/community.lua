@@ -16,6 +16,16 @@ return {
   { import = "astrocommunity.git.neogit" },
   {
     {
+      "folke/tokyonight.nvim",
+      opts = {
+        transparent = true,
+        styles = {
+          sidebars = "transparent",
+          floats = "transparent",
+        },
+      },
+    },
+    {
       "copilot.lua",
       opts = {
         suggestion = {
